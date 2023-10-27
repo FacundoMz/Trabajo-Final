@@ -1,0 +1,51 @@
+main{
+    background: linear-gradient(rgb(72, 173, 207), blue);
+
+}
+
+header{
+background: linear-gradient(blue, rgb(72, 173, 207));
+}
+
+footer{
+    background: linear-gradient(rgb(5, 107, 5), rgb(30, 224, 9));
+}
+
+body{
+    background-color: rgb(13, 51, 100);;
+}
+
+.texto{
+text-align: right;
+}
+
+.centrar{
+    text-align: center;
+}
+
+/* Limpiar floats después de las columnas */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+    width: 28%;
+    padding: 5px;
+}
+.column2 {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    margin-right: 160px;
+}
+.column3 {
+    float: left;
+}
+.column4 {
+    float: left;
+    width: 10%;
+    padding: 5px;
+}
