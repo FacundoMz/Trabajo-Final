@@ -6,45 +6,57 @@
     <link rel="shortcut icon" href="../Imagenes/minecraft-icon.png" type="image/x-icon">
     <link rel="stylesheet" href="">
     <title>Minecraft Wiki</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 <body>
     <header>
-        <a href="../index.html">
-            <img src="../Imagenes/Iconos/Favicon.png" alt="Favicon" width="57" height="55">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                    <a href="minecraft.html">
-                    Minecraft
-                    </a>
-                </li>
-                <li>
-                    <a href="juegos.html">
-                    Juegos
-                    </a>
-                </li>
-                <li>
-                    <a href="Versiones.html">
-                        Versiones
-                    </a>
-                </li>
-                <li>
-                    <a href="Comunidad.html">
-                        Comunidad
-                    </a>
-                </li>
-            </ul>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="../Imagenes/Iconos/Favicon.png" alt="Favicon" width="57" height="55">
+            </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Minecraft</a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Bloques</a></li>
+                        <li><a class="dropdown-item" href="#">Items</a></li>
+                        <li><a class="dropdown-item" href="#">Mundo</a></li>
+                        </ul>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Versiones.html">Versiones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="Comunidad.html">Comunidad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="juegos.html">Juegos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="mx-auto p-2" style="width: 165px;">
+                <a href="formularioLogin.html">
+                    <button type="button" class="btn btn-outline-primary">Iniciar sesión</button>
+                </a>
+              </div>
+              <div class="mx-auto p-2" style="width: 160px;">
+                <a href="formularioRegistro.html">
+                    <button type="button" class="btn btn-outline-primary">Registrarse</button>
+                </a>
+              </div>
         </nav>
-        <a href="formularioRegistro.html">
-            <button>Registrarse</button>
-        </a>
-        <a href="formularioLogin.html">
-            <button>Iniciar Sesion</button>
-        </a>
     </header>
 <main>
-    <h2>Construcciones increibles de la comunidad</h2>
+    <h4>Construcciones increibles de la comunidad</h4>
 
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/_U9qdZaPzPM?si=u4dbgWNQh6bWsPoD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -67,52 +79,55 @@
 
 
 
-    <h2>Creadores populares de hablahispana</h2>
+    <h4>Creadores populares de hablahispana</h4>
 
-
-    <h3>Vegetta777</h3>
+    <h5>Vegetta777</h5>
     <a href="https://www.youtube.com/@vegetta777"><img src="../Imagenes/comunidad/vegetta calvo.jpg" alt="vegetita" width="150" height="150"></a>
 
-    <h3>Willyrex</h3>
+    <h5>Willyrex</h5>
     <a href="https://www.youtube.com/@Willyrex"><img src="../Imagenes/comunidad/willy calvo.jpg" alt="willirex" width="150" height="150"></a>
 
-    <h3>Mikecrack</h3>
+    <h5>Mikecrack</h5>
     <a href="https://www.youtube.com/@Mikecrack"><img src="../Imagenes/comunidad/gigachad.jpg" alt="mikicrack" width="150" height="150"></a>
 
-    <h3>ElRichMC</h3>
+    <h5>ElRichMC</h5>
     <a href="https://www.youtube.com/@ElRichMC"><img src="../Imagenes/comunidad/elrichmc.jpg" alt="ElRichMC" width="150" height="150"> </a>
 
-    <h3>KillerCreeper55</h3>
+    <h5>KillerCreeper55</h5>
     <a href="https://www.youtube.com/@killercreeper55"><img src="../Imagenes/comunidad/killercreeper.jpg" alt="killercreeper55" width="150" height="150"></a>
 
-    <h3>Gona89</h3>
+    <h5>Gona89</h5>
     <a href="https://www.youtube.com/@Gona89"><img src="../Imagenes/comunidad/gona89.jpg" alt="gona89" width="150" height="150"></a>
 
-
-    <h3>Farfadox</h3>
+    <h5>Farfadox</h5>
     <a href="https://www.youtube.com/@Farfadox"><img src="../Imagenes/comunidad/farfadoxPeru.jpg" alt="Farfadox" width="150" height="150"></a>
 
 </main>
+
 <footer>
-    <h3>Sitios oficiales </h3>
+    
+    <h5>Sitios oficiales </h5>
     <ul>
-        <li><a href="https://www.minecraft.net/es-es">
-            Sitio web</a>
+        <li>
+            <a href="https://www.minecraft.net/es-es">Sitio web</a>
         </li>
-        <li><a href="https://www.youtube.com/minecraft">
-            Youtube</a>
+        <li>
+            <a href="https://www.youtube.com/minecraft">Youtube</a>
         </li>
-        <li><a href="https://twitter.com/minecraft">
-            Twitter</a>
+        <li>
+            <a href="https://twitter.com/minecraft">Twitter</a>
         </li>
-        <li><a href="https://www.instagram.com/minecraft/">
-        Instagram</a>
+        <li>
+            <a href="https://www.instagram.com/minecraft/">Instagram</a>
         </li>
-        <li><a href="https://www.instagram.com/minecraft/">
-        Discord</a>
+        <li>
+            <a href="https://www.instagram.com/minecraft/">Discord</a>
         </li>
     </ul>
+
 </footer>
-        
+       
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>
