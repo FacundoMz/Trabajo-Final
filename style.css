@@ -1,0 +1,29 @@
+#container {
+    nav-right: auto;
+}
+
+#back{
+        background-color: rgb(44, 29, 29);
+        color: blanchedalmond;
+
+}
+
+#link{
+    text-decoration: wavy;
+    color: white;
+}
+
+main{
+    background-image: url("../Trabajo-Final/Imagenes/paisaje.png");
+    background-size: auto;
+
+}
+
+#logo{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+#carousel-item{
+    transition: transform 10s ease, opacity .10s ease-out
+}
