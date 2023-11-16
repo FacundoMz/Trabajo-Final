@@ -2,10 +2,31 @@
     nav-right: auto;
 }
 
-#back{
-        background-color: rgb(44, 29, 29);
-        color: blanchedalmond;
+.MoverIzquierda{
+    padding-left: 10px;
+}
 
+#back{
+        background-color: rgb(14, 27, 29);
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+}
+
+footer{
+    padding-bottom: 20px;
+}
+
+h1{
+    color: rgb(14, 27, 29);
+    padding-top: 60px;
+    font-style: oblique;
+}
+
+p{
+    color: rgb(14, 27, 29);
+    padding-top: 10px;
+    font-size: 17px;
+        padding-left: 10px;
 }
 
 #link{
@@ -14,15 +35,14 @@
 }
 
 main{
-    background-image: url("Imagenes/paisaje.png");
-    background-size: auto;
+    background-color: rgb(153, 228, 190);
 
 }
 
 
 #logo{
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 70px;
 }
 
 #carousel-item{

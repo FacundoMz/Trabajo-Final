@@ -1,0 +1,33 @@
+*{
+    color: rgb(14, 27, 29);
+}
+
+label {
+    padding-top: 10px;
+}
+
+main {
+    background-color: rgb(153, 228, 190);
+    background-size: auto;
+    padding-bottom: 100px;
+}
+
+.contraseñas{
+    padding-bottom: 10px;
+
+}
+
+#link{
+    text-decoration: wavy;
+    color: white;
+}
+
+#back{
+    background-color: rgb(14, 27, 29);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer{
+    padding-bottom: 49px;
+}
