@@ -14,10 +14,11 @@
 }
 
 main{
-    background-image: url("../Trabajo-Final/Imagenes/paisaje.png");
+    background-image: url("Imagenes/paisaje.png");
     background-size: auto;
 
 }
+
 
 #logo{
     padding-top: 50px;
